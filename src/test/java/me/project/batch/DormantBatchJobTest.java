@@ -3,7 +3,9 @@ package me.project.batch;
 import me.project.batch.domain.Customer;
 import me.project.batch.domain.CustomerRepository;
 import me.project.batch.domain.CustomerStatus;
-import org.assertj.core.api.Assertions;
+import me.project.batch.job.BatchStatus;
+import me.project.batch.job.Job;
+import me.project.batch.job.JobExecution;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +24,7 @@ class DormantBatchJobTest {
     CustomerRepository customerRepository;
 
     @Autowired
-    DormantBatchJob dormantBatchJob;
+    Job dormantBatchJob;
 
     @Transactional
     @Test

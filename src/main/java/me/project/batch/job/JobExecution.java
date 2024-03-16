@@ -1,4 +1,4 @@
-package me.project.batch;
+package me.project.batch.job;
 
 import lombok.Getter;
 import lombok.Setter;
