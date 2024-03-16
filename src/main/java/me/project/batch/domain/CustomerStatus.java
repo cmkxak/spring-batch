@@ -1,7 +1,7 @@
 package me.project.batch.domain;
 
-public class Status {
+public enum CustomerStatus {
 
-    
+    NORMAL, DORMANT
 
 }
