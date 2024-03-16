@@ -1,6 +1,7 @@
-package me.project.batch.listener;
+package me.project.batch.application;
 
-import me.project.batch.job.JobExecution;
+import me.project.batch.batchcore.JobExecution;
+import me.project.batch.batchcore.JobExecutionListener;
 import me.project.batch.util.EmailProvier;
 import org.springframework.stereotype.Component;
 

@@ -1,8 +1,9 @@
-package me.project.batch.job;
+package me.project.batch.batchcore;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import me.project.batch.batchcore.BatchStatus;
 
 import java.time.LocalDateTime;
 

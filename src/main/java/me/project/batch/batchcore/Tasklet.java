@@ -1,8 +1,6 @@
-package me.project.batch.tasklet;
+package me.project.batch.batchcore;
 
 public interface Tasklet {
 
-
     void execute();
-
 }

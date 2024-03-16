@@ -1,8 +1,8 @@
-package me.project.batch.config;
+package me.project.batch.application;
 
-import me.project.batch.job.Job;
-import me.project.batch.listener.DormantJobExecutionListener;
-import me.project.batch.tasklet.DormantBatchTasklet;
+import me.project.batch.batchcore.Job;
+import me.project.batch.application.DormantJobExecutionListener;
+import me.project.batch.application.DormantBatchTasklet;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

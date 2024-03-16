@@ -1,6 +1,6 @@
-package me.project.batch.listener;
+package me.project.batch.batchcore;
 
-import me.project.batch.job.JobExecution;
+import me.project.batch.batchcore.JobExecution;
 
 public interface JobExecutionListener {
 

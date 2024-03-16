@@ -1,7 +1,5 @@
-package me.project.batch.job;
+package me.project.batch.batchcore;
 
-import me.project.batch.tasklet.Tasklet;
-import me.project.batch.listener.JobExecutionListener;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;

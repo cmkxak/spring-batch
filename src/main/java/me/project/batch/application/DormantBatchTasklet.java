@@ -1,6 +1,6 @@
-package me.project.batch.tasklet;
+package me.project.batch.application;
 
-import lombok.RequiredArgsConstructor;
+import me.project.batch.batchcore.Tasklet;
 import me.project.batch.util.EmailProvier;
 import me.project.batch.domain.Customer;
 import me.project.batch.domain.CustomerRepository;
