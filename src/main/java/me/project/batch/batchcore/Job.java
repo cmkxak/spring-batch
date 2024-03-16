@@ -4,6 +4,11 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
+
+/**
+ * 배치 실행 결과
+ * 배치 실행 시간, 종료 시간 등의 기능을 지원한다.
+ */
 @Component
 public class Job {
 
@@ -20,7 +25,6 @@ public class Job {
         jobExecution.setBatchStatus(BatchStatus.STARTING);
         jobExecutionListener.beforeJob(jobExecution);
 
-        //1. 배치 실행
         try {
             tasklet.execute();
         } catch (Exception e) {
