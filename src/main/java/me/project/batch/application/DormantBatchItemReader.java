@@ -27,6 +27,7 @@ public class DormantBatchItemReader implements ItemReader<Customer> {
         final Customer customer;
 
         if (pages.isEmpty()) {
+            pageNo = 0;
             return null;
         } else {
             pageNo++;
